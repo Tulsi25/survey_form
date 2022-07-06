@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> Survey Form </title>
+
+   
+</head>
+  <body  style="background-image: url(horizontal-wood.jpg); ">
+      
+    
+    <h1 align ="center">
+       <u>
+           Survey Form
+        </u> 
+    </h1>
+    <p align= "center"> <b>!!!Please fill the below survey form!!!</b>
+    </p>
+    <br>
+      <form>
+        <table border="4" align="center" style="background-color:palevioletred"  width=650px  height=550px>
+          <tr>
+            <td>
+             Name:
+             <td>   
+               <input type="text"  value="Enter your name"  size="20" maxlength="22" >
+             </td>
+          </tr>
+          <tr>
+             <td>  
+               Email Address:
+              <td>
+                <input type="text" value="Enter your email" size="20" maxlength="40" >
+              </td>
+          </tr>
+             <tr>
+                <td>
+                 Gender:
+                <td>
+                  <input type ="radio" name="gender" value="Male" >Male
+                  <input type ="radio" name="gender" value="female">female
+                  <input type ="radio" name="gender" value="Others ">Others
+                </td>
+              </tr>
+           <tr>
+             <td>
+                Age:
+             <td>  
+                <input type="text"  value="Enter age" size="20" maxlength="5" >
+             </td>
+             </tr>
+            <tr>
+              <td>
+               Your current role?
+              <td>
+                <select id="role">
+                    
+                <option value="Choose an option">Choose an option </option>
+                <option value="student"> Student</option>
+                <option value="teacher"> Teacher</option>
+                
+                </select>
+                </td>
+              </tr>
+            <tr>
+               <td>
+               Domain you have applied for?
+                   <br>(check all that apply)
+               <td>
+                <input type="checkbox" name="domain"  value="front-end Development" >Front-end Development
+                <br>
+                <input type="checkbox" name="domain" value="Back-end Development">Back-end Development
+                <br>
+                <input type="checkbox" name="domain" Value"App Development">App Development
+                <br>
+                <input type="checkbox" name="domain" value"Cloud computing">Cloud Computing
+                <br>
+                <input type="checkbox" name="domain" value"Cyber Security">Cyber Security
+                <br>
+                <input type="checkbox" name="domain" value"Machine Learning">Machine Learning
+                </td>
+              </tr>
+            <tr>
+                <td>
+               How likely is that you would
+                recommend a friend.
+                <td>
+                <input type ="radio" name="output" value="Definitely" >Definately 
+                <input type ="radio" name="output" value="Maybe" >Maybe
+                <input type ="radio" name="output" value="Not sure" >Not sure
+              </td>
+            </tr>
+            <tr>
+                <td>
+            How much you like to rate us(1-5,5 most likely) :
+                    <td>
+             <select id="rate">
+                    
+                <option value="Choose an option">Choose an option </option>
+                <option value="1"> 1</option>
+                <option value="2"> 2</option> 
+                <option value="3">3 </option>
+                <option value="4"> 4</option>
+                <option value="5">5</option>
+                
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+             Any Suggestions/feedback?
+                <td>
+                <textarea name="feedback" rows=3 cols=30>Type Your Answer Here </textarea> </td>
+          </tr>
+             <tr>
+               <td>
+                   <td>
+            <button>
+                  
+                SUBMIT
+            </button>
+                </td>
+            </tr>
+            </table>
+            
+        </form>
+      <br>
+      <p><center><b>---Thank you for filling this form---</b></center></p>
+    </body>
+</html>
