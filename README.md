@@ -2,4 +2,4 @@
 ## Tech Stack : HTML, CSS
 ### A simple survey form(feedback form) for a course.
 
-![This is an image](https://drive.google.com/file/d/1VrZXzIE_sIS2mLiSQMjhP_jkUuBqN_bD/view?usp=sharing)
+![Screenshot (342)](https://user-images.githubusercontent.com/71713383/177619014-3c464fd6-2ff4-4d35-aee4-d4451b060766.jpg)
